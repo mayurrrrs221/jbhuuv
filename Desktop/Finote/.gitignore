@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+
+# React Native
+# iOS
+ios/build/
+ios/Pods/
+*.xcodeproj/
+*.xcworkspace/
+# Android
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# Misc
+*.DS_Store
+*.expo
+.expo/*
+.build/
+.vscode/
+# Build and test coverage
+coverage/
+*.tgz
+*.lock

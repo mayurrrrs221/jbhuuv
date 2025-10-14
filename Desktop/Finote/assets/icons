@@ -1,0 +1,13 @@
+// Centralized imports for icons (PNG)
+// Place this file in assets/ or constants/
+const icons = {
+  food: require('./icons/food.png'),
+  travel: require('./icons/travel.png'),
+  shopping: require('./icons/shopping.png'),
+  utilities: require('./icons/utilities.png'),
+  entertainment: require('./icons/entertainment.png'),
+  health: require('./icons/health.png'),
+  other: require('./icons/other.png'),
+};
+
+export default icons;

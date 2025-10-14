@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Finote",
+    "slug": "finote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f5f7fa"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.finote.expensetracker",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.finote.expensetracker"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "348bc87d-697c-4417-ace7-e784cbc3c290"
+      }
+    }
+  }
+}
